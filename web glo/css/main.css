@@ -5,15 +5,25 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: "Mulish", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .cursor{
     cursor: pointer;
 }
 
+h1, h2, h3, h4, h5, h6{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    line-height: 23px;
+}
+
 .header{
-    margin-top: 20px;
-    margin-left: 32px;
+    margin: 20px 70px 50px 32px;
     display: flex;
     align-items: center;
 }
@@ -76,7 +86,6 @@ body{
 
 .icons{
     margin-left: auto;
-    margin-right: 70px;
     display: flex;
     align-items: center;
 }
@@ -87,4 +96,89 @@ body{
 
 .ring{
     margin-right: 50px;
+}
+
+.sidebar{
+    margin-left: 30px;
+}
+
+.nav{
+    margin-bottom: 58px;
+}
+
+.navbar{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.first-navbar{
+    margin-bottom: 60px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #898989;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link:hover{
+    color: #FF0000;
+}
+
+.nav-link:hover .icon{
+    fill: #FF0000;
+}
+
+.icon{
+    margin-right: 13px;
+    fill: #898989;
+}
+
+.nav-item{
+    margin-bottom: 28px;
+}
+
+.subscriptions{
+    margin-bottom: 104px;
+}
+
+.h2{
+    margin-bottom: 30px;
+}
+
+.people-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.people-link{
+    text-decoration: none;
+    color: #898989;
+    display: flex;
+    align-items: center;
+}
+
+.people-img{
+    margin-right: 10px;
+}
+
+.human{
+    margin-bottom: 23px;
+}
+
+.settings{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.settings-link{
+    text-decoration: none;
+    color: #898989;
+    display: flex;
+    align-items: center;
 }
